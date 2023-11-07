@@ -1,0 +1,62 @@
+
+body {
+    font-family: Roboto;
+    background: -webkit-linear-gradient(to left, rgb(207, 196, 42), 0, 0), rgba(26, 133, 233, 0.945);
+    background: linear-gradient(to left, #6d8cc5f1, #042388f1);
+} 
+    
+
+.container {
+    margin: 0 auto;
+    width: auto;
+    display: table;
+    text-align: center; 
+    
+}
+
+#convert {
+    margin-top: 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+#clear {
+    margin-top: 2%;
+    background-color: rgb(180, 0, 0);
+}
+
+#convert:hover {
+    background-color: #446c83;
+}
+h1 {
+    font-family: sans-serif;
+    color: #000;
+}
+input {
+    display: block;
+    padding: 10px; 
+    margin-top: 10px; 
+    font-size: 2em;
+    color: #000;
+    font-family: cursive, sans-serif;
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ccc;
+}
+:-ms-input-placeholder {
+    color: #ccc;
+}
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+
+
+
